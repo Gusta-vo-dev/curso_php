@@ -11,9 +11,8 @@
         <h1>Sorteio de Números</h1>
     </header>
     <section>
-        <p>Informe um intervalo de números para o sorteio:</p>
-        <form action="#" method="get">
-            <input type="number" id="iVisor" style="padding: 10px;" name="visor" readonly value="sortear_numero()">
+        <form action="sorteador.php" method="get">
+            <input type="number" id="iVisor" style="padding: 10px; width: 100%;" name="visor" readonly value="<?php ?>">
             <input type="submit" value="Sortear">
         </form>
     </section>

@@ -131,6 +131,10 @@ ul > li::marker {
 
 /* ELEMENTOS DE FORMULÁRIO */
 
+section > p {
+    font-weight: 600;
+}
+
 form {
     background-color: rgba(55, 41, 145, 0.2);
     padding: 15px;
@@ -162,7 +166,7 @@ input[type=text], select, input[type=date], input[type=date], input[type=datetim
   
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #1aca29;
     font-size: 1em;
     color: white;
     padding: 10px 20px;
@@ -173,7 +177,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #4CAF50;
 }
 
 input[type=reset] {
@@ -224,4 +228,15 @@ input[type=radio] + label, input[type=checkbox] + label {
     display: inline-block;
     font-size: 1em;
     background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
