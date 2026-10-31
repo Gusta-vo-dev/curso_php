@@ -10,11 +10,15 @@
     <header>
         <h1>Sorteio de Números</h1>
     </header>
-    <section>
-        <form action="sorteador.php" method="get">
-            <input type="number" id="iVisor" style="padding: 10px; width: 100%;" name="visor" readonly value="<?php ?>">
-            <input type="submit" value="Sortear">
-        </form>
-    </section>
+    <main>
+        <?php
+            $min = 0;
+            $max = 100;
+            $num_sorteado = mt_rand($min, $max);
+            echo "<p>Gerando um número entre $min e $max ...</p>";
+            echo "<p>Número sorteado:<strong>    $num_sorteado</strong></p>";        
+        ?>
+        <button onclick="javascript:window.location.reload()"><strong>Sortear Novo Número</strong></button>
+    </main>
 </body>
 </html>
