@@ -21,7 +21,6 @@
             echo "<ul><li>O inteiro deste número é: <strong>" . number_format($n_inteiro, 0, ",", ".") . "</strong></li>";
 
             echo "<br><li>O resto deste número é: <strong>" . number_format($n_resto, 3, ",", ".") . "</strong></li></ul>";
-
         ?>
         <button><a href="index.html">Voltar</a></button>
     </main>
